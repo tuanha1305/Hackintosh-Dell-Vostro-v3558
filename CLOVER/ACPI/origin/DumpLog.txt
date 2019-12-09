@@ -1,0 +1,156 @@
+15:024  0:306  Found BIOS RSDP at F0020
+15:024  0:000  Printing ACPI tables from RSDP F0020 ...
+15:024  0:000   F0020: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+15:024  0:000    (Xsdt: CB3690A0, Rsdt: CB369028)
+15:024  0:000    CB3690A0: 'XSDT', 'CBX3', Rev: 1, Len: 188
+15:024  0:000    CB369028: 'RSDT', 'CBX3', Rev: 1, Len: 112
+15:024  0:000    Tables in Xsdt: 19
+15:024  0:000    0. CB37C418: 'FACP', 'CBX3', Rev: 5, Len: 268
+15:024  0:000        (Dsdt: CB3691E8, Facs: CBD05F80, XDsdt: CB3691E8, XFacs: 0)
+15:024  0:000        CB3691E8: 'DSDT', 'CBX3', Rev: 2, Len: 78380
+15:025  0:001        CBD05F80: 'FACS', Ver: 2, Len: 64
+15:025  0:000    1. CB37C528: 'APIC', 'CBX3', Rev: 3, Len: 132
+15:025  0:000    2. CB37C5B0: 'FPDT', 'CBX3', Rev: 1, Len: 68
+15:025  0:000    3. CB37C5F8: 'FIDT', 'CBX3', Rev: 1, Len: 156
+15:025  0:000    4. CB37C698: 'MCFG', 'CBX3', Rev: 1, Len: 60
+15:025  0:000    5. CB37C6D8: 'HPET', 'CBX3', Rev: 1, Len: 56
+15:025  0:000    6. CB37C710: 'SSDT', 'SataTabl', Rev: 1, Len: 957
+15:025  0:000    7. CB37CAD0: 'UEFI', '', Rev: 1, Len: 66
+15:025  0:000    8. CB37CB18: 'ASF!', ' HCG', Rev: 32, Len: 160
+15:025  0:000    9. CB37CBB8: 'BOOT', 'CBX3', Rev: 1, Len: 40
+15:025  0:000    10. CB37CBE0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1311
+15:025  0:000    11. CB37D100: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+15:025  0:000    12. CB37DC78: 'SSDT', 'LakeTiny', Rev: 2, Len: 455
+15:025  0:000    13. CB37DE40: 'SSDT', 'SaSsdt', Rev: 2, Len: 16812
+15:025  0:000    14. CB381FF0: 'SSDT', 'SgPch', Rev: 2, Len: 1466
+15:025  0:000    15. CB3825B0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+15:025  0:000    16. CB382728: 'DMAR', 'BDW', Rev: 1, Len: 176
+15:025  0:000    17. CB3827D8: 'SSDT', 'OptTabl', Rev: 1, Len: 5004
+15:025  0:000    18. CB383B68: 'BGRT', '', Rev: 0, Len: 56
+15:025  0:000    Tables in Rsdt: 19
+15:025  0:000    0. CB369160: 'FACP', 'CBX3', Rev: 2, Len: 132
+15:025  0:000        (Dsdt: CB3691E8, Facs: CBD05F40)
+15:025  0:000        CB3691E8: 'DSDT', 'CBX3', Rev: 2, Len: 78380
+15:027  0:001        CBD05F40: 'FACS', Ver: 0, Len: 64
+15:027  0:000    1. CB37C528: 'APIC', 'CBX3', Rev: 3, Len: 132
+15:027  0:000    2. CB37C5B0: 'FPDT', 'CBX3', Rev: 1, Len: 68
+15:027  0:000    3. CB37C5F8: 'FIDT', 'CBX3', Rev: 1, Len: 156
+15:027  0:000    4. CB37C698: 'MCFG', 'CBX3', Rev: 1, Len: 60
+15:027  0:000    5. CB37C6D8: 'HPET', 'CBX3', Rev: 1, Len: 56
+15:027  0:000    6. CB37C710: 'SSDT', 'SataTabl', Rev: 1, Len: 957
+15:027  0:000    7. CB37CAD0: 'UEFI', '', Rev: 1, Len: 66
+15:027  0:000    8. CB37CB18: 'ASF!', ' HCG', Rev: 32, Len: 160
+15:027  0:000    9. CB37CBB8: 'BOOT', 'CBX3', Rev: 1, Len: 40
+15:027  0:000    10. CB37CBE0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1311
+15:027  0:000    11. CB37D100: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+15:027  0:000    12. CB37DC78: 'SSDT', 'LakeTiny', Rev: 2, Len: 455
+15:027  0:000    13. CB37DE40: 'SSDT', 'SaSsdt', Rev: 2, Len: 16812
+15:027  0:000    14. CB381FF0: 'SSDT', 'SgPch', Rev: 2, Len: 1466
+15:027  0:000    15. CB3825B0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+15:027  0:000    16. CB382728: 'DMAR', 'BDW', Rev: 1, Len: 176
+15:027  0:000    17. CB3827D8: 'SSDT', 'OptTabl', Rev: 1, Len: 5004
+15:027  0:000    18. CB383B68: 'BGRT', '', Rev: 0, Len: 56
+15:027  0:000  Found UEFI Acpi 2.0 RSDP at CB369000
+15:027  0:000  Saving ACPI tables from RSDP CB369000 to EFI\CLOVER\ACPI\origin ...
+15:027  0:000   CB369000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+15:027  0:000    (Xsdt: CB3690A0, Rsdt: CB369028)
+15:027  0:000    CB3690A0: 'XSDT', 'CBX3', Rev: 1, Len: 188
+15:027  0:000    CB369028: 'RSDT', 'CBX3', Rev: 1, Len: 112
+15:027  0:000    Tables in Xsdt: 19
+15:027  0:000    0. CB37C418: 'FACP', 'CBX3', Rev: 5, Len: 268
+15:027  0:000        (Dsdt: CB3691E8, Facs: CBD05F80, XDsdt: CB3691E8, XFacs: 0)
+15:027  0:000        CB3691E8: 'DSDT', 'CBX3', Rev: 2, Len: 78380
+15:028  0:001        CBD05F80: 'FACS', Ver: 2, Len: 64
+15:028  0:000    1. CB37C528: 'APIC', 'CBX3', Rev: 3, Len: 132
+15:028  0:000    2. CB37C5B0: 'FPDT', 'CBX3', Rev: 1, Len: 68
+15:028  0:000    3. CB37C5F8: 'FIDT', 'CBX3', Rev: 1, Len: 156
+15:028  0:000    4. CB37C698: 'MCFG', 'CBX3', Rev: 1, Len: 60
+15:028  0:000    5. CB37C6D8: 'HPET', 'CBX3', Rev: 1, Len: 56
+15:028  0:000    6. CB37C710: 'SSDT', 'SataTabl', Rev: 1, Len: 957
+15:028  0:000    7. CB37CAD0: 'UEFI', '', Rev: 1, Len: 66
+15:028  0:000    8. CB37CB18: 'ASF!', ' HCG', Rev: 32, Len: 160
+15:028  0:000    9. CB37CBB8: 'BOOT', 'CBX3', Rev: 1, Len: 40
+15:028  0:000    10. CB37CBE0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1311
+15:028  0:000    11. CB37D100: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+15:028  0:000    12. CB37DC78: 'SSDT', 'LakeTiny', Rev: 2, Len: 455
+15:028  0:000    13. CB37DE40: 'SSDT', 'SaSsdt', Rev: 2, Len: 16812
+15:028  0:000    14. CB381FF0: 'SSDT', 'SgPch', Rev: 2, Len: 1466
+15:028  0:000    15. CB3825B0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+15:028  0:000    16. CB382728: 'DMAR', 'BDW', Rev: 1, Len: 176
+15:028  0:000    17. CB3827D8: 'SSDT', 'OptTabl', Rev: 1, Len: 5004
+15:028  0:000    18. CB383B68: 'BGRT', '', Rev: 0, Len: 56
+15:028  0:000    Tables in Rsdt: 19
+15:028  0:000    0. CB369160: 'FACP', 'CBX3', Rev: 2, Len: 132
+15:028  0:000        (Dsdt: CB3691E8, Facs: CBD05F40)
+15:028  0:000        CB3691E8: 'DSDT', 'CBX3', Rev: 2, Len: 78380
+15:030  0:001        CBD05F40: 'FACS', Ver: 0, Len: 64
+15:030  0:000    1. CB37C528: 'APIC', 'CBX3', Rev: 3, Len: 132
+15:030  0:000    2. CB37C5B0: 'FPDT', 'CBX3', Rev: 1, Len: 68
+15:030  0:000    3. CB37C5F8: 'FIDT', 'CBX3', Rev: 1, Len: 156
+15:030  0:000    4. CB37C698: 'MCFG', 'CBX3', Rev: 1, Len: 60
+15:030  0:000    5. CB37C6D8: 'HPET', 'CBX3', Rev: 1, Len: 56
+15:030  0:000    6. CB37C710: 'SSDT', 'SataTabl', Rev: 1, Len: 957
+15:030  0:000    7. CB37CAD0: 'UEFI', '', Rev: 1, Len: 66
+15:030  0:000    8. CB37CB18: 'ASF!', ' HCG', Rev: 32, Len: 160
+15:030  0:000    9. CB37CBB8: 'BOOT', 'CBX3', Rev: 1, Len: 40
+15:030  0:000    10. CB37CBE0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1311
+15:030  0:000    11. CB37D100: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+15:030  0:000    12. CB37DC78: 'SSDT', 'LakeTiny', Rev: 2, Len: 455
+15:030  0:000    13. CB37DE40: 'SSDT', 'SaSsdt', Rev: 2, Len: 16812
+15:030  0:000    14. CB381FF0: 'SSDT', 'SgPch', Rev: 2, Len: 1466
+15:030  0:000    15. CB3825B0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+15:030  0:000    16. CB382728: 'DMAR', 'BDW', Rev: 1, Len: 176
+15:030  0:000    17. CB3827D8: 'SSDT', 'OptTabl', Rev: 1, Len: 5004
+15:030  0:000    18. CB383B68: 'BGRT', '', Rev: 0, Len: 56
+15:030  0:000  Found UEFI Acpi 1.0 RSDP at CB369000
+15:030  0:000  Printing ACPI tables from RSDP CB369000 ...
+15:030  0:000   CB369000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+15:030  0:000    (Xsdt: CB3690A0, Rsdt: CB369028)
+15:030  0:000    CB3690A0: 'XSDT', 'CBX3', Rev: 1, Len: 188
+15:030  0:000    CB369028: 'RSDT', 'CBX3', Rev: 1, Len: 112
+15:030  0:000    Tables in Xsdt: 19
+15:030  0:000    0. CB37C418: 'FACP', 'CBX3', Rev: 5, Len: 268
+15:030  0:000        (Dsdt: CB3691E8, Facs: CBD05F80, XDsdt: CB3691E8, XFacs: 0)
+15:030  0:000        CB3691E8: 'DSDT', 'CBX3', Rev: 2, Len: 78380
+15:032  0:001        CBD05F80: 'FACS', Ver: 2, Len: 64
+15:032  0:000    1. CB37C528: 'APIC', 'CBX3', Rev: 3, Len: 132
+15:032  0:000    2. CB37C5B0: 'FPDT', 'CBX3', Rev: 1, Len: 68
+15:032  0:000    3. CB37C5F8: 'FIDT', 'CBX3', Rev: 1, Len: 156
+15:032  0:000    4. CB37C698: 'MCFG', 'CBX3', Rev: 1, Len: 60
+15:032  0:000    5. CB37C6D8: 'HPET', 'CBX3', Rev: 1, Len: 56
+15:032  0:000    6. CB37C710: 'SSDT', 'SataTabl', Rev: 1, Len: 957
+15:032  0:000    7. CB37CAD0: 'UEFI', '', Rev: 1, Len: 66
+15:032  0:000    8. CB37CB18: 'ASF!', ' HCG', Rev: 32, Len: 160
+15:032  0:000    9. CB37CBB8: 'BOOT', 'CBX3', Rev: 1, Len: 40
+15:032  0:000    10. CB37CBE0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1311
+15:032  0:000    11. CB37D100: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+15:032  0:000    12. CB37DC78: 'SSDT', 'LakeTiny', Rev: 2, Len: 455
+15:032  0:000    13. CB37DE40: 'SSDT', 'SaSsdt', Rev: 2, Len: 16812
+15:032  0:000    14. CB381FF0: 'SSDT', 'SgPch', Rev: 2, Len: 1466
+15:032  0:000    15. CB3825B0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+15:032  0:000    16. CB382728: 'DMAR', 'BDW', Rev: 1, Len: 176
+15:032  0:000    17. CB3827D8: 'SSDT', 'OptTabl', Rev: 1, Len: 5004
+15:032  0:000    18. CB383B68: 'BGRT', '', Rev: 0, Len: 56
+15:032  0:000    Tables in Rsdt: 19
+15:032  0:000    0. CB369160: 'FACP', 'CBX3', Rev: 2, Len: 132
+15:032  0:000        (Dsdt: CB3691E8, Facs: CBD05F40)
+15:032  0:000        CB3691E8: 'DSDT', 'CBX3', Rev: 2, Len: 78380
+15:033  0:001        CBD05F40: 'FACS', Ver: 0, Len: 64
+15:033  0:000    1. CB37C528: 'APIC', 'CBX3', Rev: 3, Len: 132
+15:033  0:000    2. CB37C5B0: 'FPDT', 'CBX3', Rev: 1, Len: 68
+15:033  0:000    3. CB37C5F8: 'FIDT', 'CBX3', Rev: 1, Len: 156
+15:033  0:000    4. CB37C698: 'MCFG', 'CBX3', Rev: 1, Len: 60
+15:033  0:000    5. CB37C6D8: 'HPET', 'CBX3', Rev: 1, Len: 56
+15:033  0:000    6. CB37C710: 'SSDT', 'SataTabl', Rev: 1, Len: 957
+15:033  0:000    7. CB37CAD0: 'UEFI', '', Rev: 1, Len: 66
+15:033  0:000    8. CB37CB18: 'ASF!', ' HCG', Rev: 32, Len: 160
+15:033  0:000    9. CB37CBB8: 'BOOT', 'CBX3', Rev: 1, Len: 40
+15:033  0:000    10. CB37CBE0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1311
+15:033  0:000    11. CB37D100: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+15:033  0:000    12. CB37DC78: 'SSDT', 'LakeTiny', Rev: 2, Len: 455
+15:033  0:000    13. CB37DE40: 'SSDT', 'SaSsdt', Rev: 2, Len: 16812
+15:033  0:000    14. CB381FF0: 'SSDT', 'SgPch', Rev: 2, Len: 1466
+15:033  0:000    15. CB3825B0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+15:033  0:000    16. CB382728: 'DMAR', 'BDW', Rev: 1, Len: 176
+15:033  0:000    17. CB3827D8: 'SSDT', 'OptTabl', Rev: 1, Len: 5004
+15:033  0:000    18. CB383B68: 'BGRT', '', Rev: 0, Len: 56
